@@ -89,7 +89,7 @@ function toPg(sql) {
 // ── SQLite adapter ──────────────────────────────────────────
 async function openSQLite() {
   const { default: sqlite3 } = await import('sqlite3');
-  const dbPath = path.join(__dirname, 'investigate-agent.db');
+  const dbPath = process.env.SQLITE_DB_PATH || path.join(__dirname, 'investigate-agent.db');
   const raw    = new sqlite3.Database(dbPath);
 
   return {
