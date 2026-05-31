@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # INVESTIGATE.AGENT - Enterprise AI Operations Platform
 
 A modular React-based enterprise AI monitoring and automation platform that connects to multiple data sources (GitHub, PostgreSQL, Slack, Datadog, Jira, Sentry) for real-time issue detection and auto-fix capabilities.
@@ -114,3 +115,7 @@ npm run preview
 - Modern browser with ES6 module support
 - Requires Tabler Icons CDN (loaded in HTML)
 - Needs Claude API key for AI features
+=======
+# INVESTIGATION.AGENT-ENTERPRICE
+IncidentIQ – AI-Powered Enterprise Incident Investigation Agent  IncidentIQ is an AI-powered platform that helps engineering teams investigate and resolve production incidents faster. It correlates data from multiple enterprise sources, including Datadog Metrics, GitHub Deployments, Slack Discussions, logs, and incident records stored in SQLite.
+>>>>>>> ebfb8eb0a30e959399f6403a16ac066a60b20f83
